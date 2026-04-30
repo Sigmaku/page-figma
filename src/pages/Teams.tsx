@@ -16,11 +16,11 @@ const Teams = () => {
                 <div className="text-[22px]">The most important part of the Startup Framework is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.</div>
             </div>
             {/* Crew Profile */}
-            <div className="flex flex-col text-white gap-15">
+            <div className="flex flex-col text-white gap-15 w-191 h-135.75">
                 {/* Row-1 */}
                 <div className="flex flex-row gap-36.5">
                     {/* Profile-1  */}
-                    <div className="flex flex-col">
+                    <div className="flex flex-col w-38.5 h-60.25">
                         <div className="mb-4.25"><img src={leahPng} alt="Leah" /></div>
                         <div className="text-[22px] mb-2">Leah Salomon</div>
                         <div className="text-[16px]">UI Designer</div>
@@ -32,7 +32,7 @@ const Teams = () => {
                         </div>
                     </div>
                     {/* Profile-2  */}
-                    <div className="flex flex-col">
+                    <div className="flex flex-col w-38.75 h-60.25">
                         <div className="mb-4.25"><img src={colinPng} alt="Leah" /></div>
                         <div className="text-[22px] mb-2">Colin Timmons</div>
                         <div className="text-[16px]">UX Designer</div>
@@ -42,7 +42,7 @@ const Teams = () => {
                         </div>
                     </div>
                     {/* Profile-3  */}
-                    <div className="flex flex-col">
+                    <div className="flex flex-col w-41.25 h-60.25">
                         <div className="mb-4.25"><img src={miguelPng} alt="Leah" /></div>
                         <div className="text-[22px] mb-2">Miguel Osborne</div>
                         <div className="text-[16px]">Front-end Developer</div>
@@ -55,7 +55,8 @@ const Teams = () => {
                 </div>
                 {/* Row-2 */}
                 <div className="flex flex-row gap-36.5">
-                    <div className="flex flex-col">
+                    {/* Profile-4 */}
+                    <div className="flex flex-col w-38.5 h-60.25">
                         <div className="mb-4.25"><img src={simonPng} alt="Leah" /></div>
                         <div className="text-[22px] mb-2">Taylor Simon</div>
                         <div className="text-[16px]">Product Manager</div>
@@ -64,8 +65,8 @@ const Teams = () => {
                             <div><FaInstagram /></div>
                         </div>
                     </div>
-                    {/* Profile-2  */}
-                    <div className="flex flex-col">
+                    {/* Profile-5 */}
+                    <div className="flex flex-col w-49 h-60.25">
                         <div className="mb-4.25"><img src={stevenPng} alt="Leah" /></div>
                         <div className="text-[22px] mb-2">Steven MacAlister</div>
                         <div className="text-[16px]">Copyrighter</div>

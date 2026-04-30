@@ -1,9 +1,9 @@
-import PricingTable from "./pages/PricingTable"
+import Teams from "./pages/Teams"
 
 function App() {
 
   return (
-    <PricingTable/>
+    <Teams/>
   )
 }
 
