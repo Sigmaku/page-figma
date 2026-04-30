@@ -1,9 +1,9 @@
-import ShowCase from "./pages/ShowCase"
+import PricingTable from "./pages/PricingTable"
 
 function App() {
 
   return (
-    <ShowCase/>
+    <PricingTable/>
   )
 }
 
