@@ -1,9 +1,9 @@
-import Teams from "./pages/Teams"
+import Forms from "./pages/Forms"
 
 function App() {
 
   return (
-    <Teams/>
+    <Forms/>
   )
 }
 
