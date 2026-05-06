@@ -1,9 +1,9 @@
-import Forms from "./pages/Forms"
+import PricingTable from "./pages/PricingTable"
 
 function App() {
 
   return (
-    <Forms/>
+    <PricingTable/>
   )
 }
 
